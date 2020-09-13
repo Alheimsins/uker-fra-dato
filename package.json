@@ -1,0 +1,46 @@
+{
+  "name": "@alheimsins/uker-fra-dato",
+  "version": "1.0.0",
+  "description": "Count weeks from a given date",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "standard && npm audit && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "keywords": [
+    "weeks from date",
+    "uker fra dato",
+    "helper",
+    "Alheimsins"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alheimsins/uker-fra-dato.git"
+  },
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alheimsins/uker-fra-dato/issues"
+  },
+  "homepage": "https://github.com/Alheimsins/uker-fra-dato#readme",
+  "devDependencies": {
+    "ava": "3.12.1",
+    "coveralls": "3.1.0",
+    "nyc": "15.1.0",
+    "standard": "14.3.4"
+  },
+  "engines": {
+    "node": ">=12.18.3"
+  }
+}
