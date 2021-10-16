@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/Alheimsins/uker-fra-dato.svg?branch=main)](https://travis-ci.com/Alheimsins/uker-fra-dato)
-[![Coverage Status](https://coveralls.io/repos/Alheimsins/uker-fra-dato/badge.svg?branch=main&service=github)](https://coveralls.io/github/Alheimsins/uker-fra-dato?branch=main)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 # uker-fra-dato
