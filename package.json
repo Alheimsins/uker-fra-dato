@@ -1,6 +1,6 @@
 {
   "name": "@alheimsins/uker-fra-dato",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Count weeks from a given date",
   "main": "index.js",
   "publishConfig": {
